@@ -2,9 +2,9 @@
 
 namespace DraftsmanDev\DraftsmanDevLaravel;
 
+use DraftsmanDev\DraftsmanDevLaravel\Commands\DraftsmanDevLaravelCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DraftsmanDev\DraftsmanDevLaravel\Commands\DraftsmanDevLaravelCommand;
 
 class DraftsmanDevLaravelServiceProvider extends PackageServiceProvider
 {
